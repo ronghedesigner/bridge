@@ -27,6 +27,7 @@
             left: 50%;
             bottom: 1%;
             margin-left: -15%;
+            z-index:999;
         }
 
         .btn img {
@@ -38,11 +39,12 @@
 
 <body>
     <div class="videoWrapper">
-        <video webkit-playsinline="true" x-webkit-airplay="true" playsinline="true" x5-video-player-type="h5" x5-video-player-fullscreen="true" src="video/bridge.mp4" id="covervideo" poster="images/poster.jpg"></video>
+        <video webkit-playsinline="true" x-webkit-airplay="true" playsinline="true" x5-video-player-type="h5" x5-video-player-fullscreen="true" src="video/bridge.mp4" id="covervideo" poster="images/poster.jpg" ></video>
     </div>
     <div class="btn" id="press">
         <img src="images/press.png" alt="">
     </div>
+	<audio src="audio/bg.mp3" loop autoplay></audio>
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/fullscreenV.js"></script>
     <script>
